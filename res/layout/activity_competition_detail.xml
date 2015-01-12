@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <fragment
+          android:id="@+id/map2"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:name="com.google.android.gms.maps.MapFragment"/>
+    
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/eventLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Location"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/eventVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Venue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
